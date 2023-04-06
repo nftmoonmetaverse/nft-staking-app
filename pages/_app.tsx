@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 import "../styles/globals.css";
 
 // This is the chainId your dApp will work on.
-const activeChainId = "Mainnet";
+const activeChainId = "mainnet";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
